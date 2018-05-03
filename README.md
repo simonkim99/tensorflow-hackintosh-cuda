@@ -19,9 +19,9 @@ pip3 install six numpy wheel
 ```
 
 # install CUDA & cuDNN
-CUDA 9.0 : CUDA Toolkit 9.0 Downloads, Mac OSX Version 10.12
-https://developer.nvidia.com/cuda-90-download-archive?target_os=MacOSX&target_arch=x86_64&target_version=1012
-cuDNN 7.0.4 : Download cuDNN v7.0.4 (Nov 13, 2017), for CUDA 9.0, cuDNN v7.0.4 Library for OSX
+* CUDA 9.0 : CUDA Toolkit 9.0 Downloads, Mac OSX Version 10.12
+ https://developer.nvidia.com/cuda-90-download-archive?target_os=MacOSX&target_arch=x86_64&target_version=1012
+* cuDNN 7.0.4 : Download cuDNN v7.0.4 (Nov 13, 2017), for CUDA 9.0, cuDNN v7.0.4 Library for OSX
 
 # install Xcode 8.3.3
 This is only compatible version with CUDA 9.0
@@ -87,9 +87,10 @@ In tensorflow/workspace.bzl :
 # Run configure script
 ```
  ./configure
-```
 
+….
 Please specify a list of comma-separated Cuda compute capabilities you want to build with. [Default is: 3.5,5.2] 6.1
+```
 
 # Compile
 ```
