@@ -1,13 +1,16 @@
+NOTE : This is a just personal note.
+
 # Installing TensorFlow 1.7.1 on Hackintosh with CUDA
-Installing Tensorflow 1.7
-OS : macOS Sierra 10.12.6
-GPU : NVIDIA 980Ti
+* Installing Tensorflow 1.7
+* OS : macOS Sierra 10.12.6
+* GPU : NVIDIA 980Ti
 
 # Clone the TensorFlow repository
-
+‘’’’
 git clone https://github.com/tensorflow/tensorflow
 cd tensorflow
 git checkout r1.7
+‘’’’
 
 # setup
 brew install coreutils python3 gcc bazel
