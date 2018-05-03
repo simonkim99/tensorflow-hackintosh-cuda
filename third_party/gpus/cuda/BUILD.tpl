@@ -110,7 +110,7 @@ cc_library(
         ".",
         "cuda/include",
     ],
-    linkopts = ["-lgomp"],
+	linkopts = ["-L/usr/local/lib/gcc/7"],
     linkstatic = 1,
     visibility = ["//visibility:public"],
 )
