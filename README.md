@@ -100,7 +100,7 @@ Please specify a list of comma-separated Cuda compute capabilities you want to b
 
 # Check the Compute Capability of your GPU
 ```
-(https://developer.nvidia.com/cuda-gpus)
+[NVIDIA CUDA GPUs](https://developer.nvidia.com/cuda-gpus)
  -> Click the sections "CUDA-Enabled GeForce Products"
 ```
 
