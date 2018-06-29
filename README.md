@@ -94,7 +94,13 @@ Do you wish to build TensorFlow with CUDA support? [y/N]: y
 .
 .
 .
-Please specify a list of comma-separated Cuda compute capabilities you want to build with. [Default is: 3.5,5.2] 6.1
+Please specify a list of comma-separated Cuda compute capabilities you want to build with.
+[Default is: 3.5,5.2] 5.2
+```
+
+# Check the Compute Capability of your GPU
+```
+https://developer.nvidia.com/cuda-gpus -> Click the sections "CUDA-Enabled GeForce Products"
 ```
 
 # Compile
